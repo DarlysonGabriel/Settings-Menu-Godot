@@ -29,6 +29,6 @@ Então, sim, estou utilizando I.A. para realizar parte do trabalho, mas não tod
 O objetivo principal é claro. Fazer um sistema completo de menu **plug-and-ply**, para projetos pequenos e médios.
 
 # Licença
-(Aqui)[LICENSE]
+[Aqui](LICENSE)
 
 > © Darlyson Gabriel Hee Hee
