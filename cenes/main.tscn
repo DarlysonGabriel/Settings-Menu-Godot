@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://bmvdtbc3m2mhn"]
+
+[ext_resource type="Script" uid="uid://b2ime1kbs77no" path="res://cenes/settings.gd" id="1_nol18"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nol18"]
+font_size = 50
+shadow_size = 4
+shadow_color = Color(0, 0, 0, 0.4392157)
+shadow_offset = Vector2(5, 5)
+
+[node name="Main" type="Node2D" unique_id=58105352]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=103662631 node_paths=PackedStringArray("open_button")]
+script = ExtResource("1_nol18")
+open_button = NodePath("../Button")
+panel_width = 640.0
+content_width_scale = 0.5
+scrollbar_padding = 0.0
+ui_scale = 1.5
+
+[node name="Button" type="Button" parent="." unique_id=715493901]
+offset_left = 464.0
+offset_top = 296.0
+offset_right = 705.0
+offset_bottom = 365.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 28
+text = "Open Settings"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="." unique_id=1773166226]
+offset_right = 1159.0
+offset_bottom = 206.0
+text = "Settings-Menu-Godot 
+Open: res://cenes/settings.gd for details"
+label_settings = SubResource("LabelSettings_nol18")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="." unique_id=729741848]
+offset_top = 569.0
+offset_right = 1159.0
+offset_bottom = 646.0
+text = "By Darlyson Hee Hee"
+label_settings = SubResource("LabelSettings_nol18")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
