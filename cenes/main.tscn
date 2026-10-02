@@ -11,9 +11,15 @@ shadow_offset = Vector2(5, 5)
 [node name="Main" type="Node2D" unique_id=58105352]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=103662631 node_paths=PackedStringArray("open_button")]
+follow_viewport_enabled = true
 script = ExtResource("1_nol18")
 open_button = NodePath("../Button")
+panel_width = 400.0
 ui_scale = 1.5
+default_vsync_mode = 0
+default_msaa_2d = 1
+default_texture_filter_nearest = true
+default_pixel_snap_enabled = true
 
 [node name="Button" type="Button" parent="." unique_id=715493901]
 offset_left = 463.0

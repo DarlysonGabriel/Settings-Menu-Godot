@@ -13,7 +13,7 @@ config_version=5
 config/name="Settings-Menu-Godot"
 run/main_scene="uid://bmvdtbc3m2mhn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://cw0pl1w0q7ly3"
 
 [display]
 
@@ -32,12 +32,12 @@ window/stretch/aspect="ignore"
 
 [rendering]
 
-textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 viewport/hdr_2d=true
 anti_aliasing/quality/msaa_2d=1
+anti_aliasing/quality/msaa_3d=1
 anti_aliasing/quality/screen_space_aa=1
 anti_aliasing/quality/use_taa=true
 2d/snap/snap_2d_transforms_to_pixel=true
