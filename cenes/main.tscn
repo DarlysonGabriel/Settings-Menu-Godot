@@ -13,6 +13,7 @@ shadow_offset = Vector2(5, 5)
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=103662631 node_paths=PackedStringArray("open_button")]
 follow_viewport_enabled = true
 script = ExtResource("1_nol18")
+toggle_key = 0
 open_button = NodePath("../Button")
 panel_width = 400.0
 ui_scale = 1.5
